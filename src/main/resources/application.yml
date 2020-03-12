@@ -1,0 +1,22 @@
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+
+dragons-of-mugloar-api:
+  ribbon:
+    listOfServers: https://dragonsofmugloar.com
+
+com:
+  bastosbf:
+    mugloar:
+      livesForBraveMode: 5
+
+logging:
+  level:
+    com:
+      bastosbf:
+        mugloar: DEBUG
